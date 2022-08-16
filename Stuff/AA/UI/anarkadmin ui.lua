@@ -200,7 +200,7 @@ cmdpromptthing.BackgroundTransparency = 10.000
 cmdpromptthing.Position = UDim2.new(0.00600000005, 0, 0.074000001, 0)
 cmdpromptthing.Size = UDim2.new(0, 160, 0, 22)
 cmdpromptthing.Font = Enum.Font.SourceSans
-cmdpromptthing.Text = "Windows [Version 10.0.19044.1889]"
+cmdpromptthing.Text = "Win [Version 10.0.19044.1889]"
 cmdpromptthing.TextColor3 = Color3.fromRGB(255, 255, 255)
 cmdpromptthing.TextSize = 14.000
 
@@ -740,7 +740,7 @@ COMMAND.ClipsDescendants = true
 COMMAND.Position = UDim2.new(-0.437821597, 0, 0.191, 0)
 COMMAND.Size = UDim2.new(0, 200, 0, 50)
 COMMAND.Font = Enum.Font.SourceSansLight
-COMMAND.Text = "HOMEBREW"
+COMMAND.Text = "ANARKY'S"
 COMMAND.TextColor3 = Color3.fromRGB(255, 255, 255)
 COMMAND.TextScaled = true
 COMMAND.TextSize = 14.000
@@ -1516,8 +1516,8 @@ local function EJJP_fake_script() -- HBADMIN.Script
 	local remote = script.Parent.sexyyes
 	local lol = game:GetService("Players")
 	banned = {
-		"Fuckyouskid",
-		"nigger"
+		"",
+		""
 	}
 	local players = game.Players:GetChildren()
 	local myPlayer = game.Players.LocalPlayer
