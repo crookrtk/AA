@@ -75,8 +75,8 @@ local GetCommand = function(Name)
     end
 end
 
-if isfolder("HBAdmin") then
-for _,pluginz in pairs(listfiles("HBAdmin/plugins")) do
+if isfolder("AnarkyAdmin") then
+for _,pluginz in pairs(listfiles("AnarkyAdmin/plugins")) do
     local succ,err = pcall(function()
     local plug = loadfile(pluginz)()
     for index, data in pairs(plug.commands) do
@@ -85,12 +85,12 @@ for _,pluginz in pairs(listfiles("HBAdmin/plugins")) do
 end)
 end
 else
-makefolder("HBAdmin")
-makefolder("HBAdmin/plugins")
+makefolder("AnarkyAdmin")
+makefolder("AnarkyAdmin/plugins")
 end
 
 local notify = function(Message)
-    StarterGui:SetCore("SendNotification", {Title = "Homebrew Admin", Text = Message, Duration = 2})
+    StarterGui:SetCore("SendNotification", {Title = "Anarky's Admin", Text = Message, Duration = 2})
 end
 
 AddCommand(
